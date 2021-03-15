@@ -19,6 +19,9 @@ I want to know more technical details of specific features and what inputs do wh
 ## Plans
 I want to know what features are still yet to be made for the project and what they would look like.
 
+## Suggestions
+I want to be able to suggest new projects/ideas or get in contact with the owner of the site. 
+
 # Features :
 
 1. Navbar
@@ -26,11 +29,14 @@ I want to know what features are still yet to be made for the project and what t
 3. Home Page
 4. Creating the Code
 5. Key Feature Description
-6. Planned Content
+6. Planned Content/Suggestions
 7. Github Link
 
 # Wireframes :
 
+##Home Page:
+
+![Image](/wireframes/MainPage.png)
 
 # Typography and Color Scheme :
 
