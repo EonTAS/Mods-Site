@@ -51,3 +51,5 @@ I want to be able to tell the creator about any bugs i experience and how to rep
 
 # Typography and Color Scheme :
 
+Background will be a carbon colour, relatively dark.
+Text will be an off-white colour using the Exo and Roboto fonts.
