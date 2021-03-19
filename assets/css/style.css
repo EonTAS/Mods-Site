@@ -1,1 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo&family=Roboto&display=swap');
+
+body {
+    background-color: #333333;
+}
+/*** Colours ***/
+.ui-menu-color-home {
+    background-color: red;
+}
+.ui-menu-color-features {
+    background-color: blue;
+}
+.ui-menu-color-report {
+    background-color: yellow;
+}
+
+/*** Header ***/
+
+header { 
+    margin: 0;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav {
+    margin: 0;
+}
+#nav li {
+    font-size: 14px;
+}
+
+
+
+.menu-item {
+    text-align: center;
+    height: 70px;
+    margin-top: 20%;
+}
+.menu-item a {
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    height: 100%;
+}
+
+.menu-item a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menu-item span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+
+.logo img {
+    width: 100%;
+    background-color: #007777;
+    border-radius: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+}
+
+/** Section **/
+#video {
+    width: 80%;
+    height: 800px;
+    margin: auto;
+}
