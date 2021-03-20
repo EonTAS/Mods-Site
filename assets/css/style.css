@@ -5,7 +5,7 @@ body {
 }
 /*** Colours ***/
 
-.ui-menu-color-home {
+.ui-menu-color-download {
     background-color: pink;
 }
 .ui-menu-color-home {
@@ -44,7 +44,7 @@ header {
 .menu-item {
     text-align: center;
     height: 70px;
-    margin-top: 20%;
+    margin-top: 11%;
 }
 .menu-item a {
     width: 100%;
@@ -84,8 +84,31 @@ header {
 }
 
 /** Section **/
-#video {
-    width: 80%;
-    height: 800px;
-    margin: auto;
+.videoContainer { /* https://css-tricks.com/fluid-width-video/ */
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoContainer iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 90%;
+  margin: 5%
+
+}
+#centerSection {
+    width: 90%;
+    margin: 0 5% 0 5%;
+    background-color: #FFF1;
+    border-radius: 20px;
+}
+
+#demo-img {
+    width: 90%;
+    margin: 5%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
