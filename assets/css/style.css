@@ -3,6 +3,7 @@
 body {
     background-color: #333333;
 }
+
 /*** Colours ***/
 
 .ui-menu-color-download {
@@ -83,6 +84,14 @@ header {
     -moz-transition: all .5s ease-in-out;
 }
 
+/** footer **/
+
+#footer-details {
+    background-color: #FFFD;
+    padding-top: 20px;
+}
+
+
 /** Section **/
 .videoContainer { /* https://css-tricks.com/fluid-width-video/ */
   position: relative;
@@ -95,7 +104,7 @@ header {
   left: 0;
   width: 90%;
   height: 90%;
-  margin: 5%
+  margin: 5%;
 
 }
 #centerSection {
@@ -103,6 +112,7 @@ header {
     margin: 0 5% 0 5%;
     background-color: #FFF1;
     border-radius: 20px;
+    padding: 20px;
 }
 
 #demo-img {
