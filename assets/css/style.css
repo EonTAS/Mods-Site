@@ -7,6 +7,9 @@ a {
     text-decoration: none;
     color: black;
 }
+a:hover {
+    color: black;
+}
 /*** Colours ***/
 
 .ui-menu-color-download {
@@ -77,6 +80,7 @@ header {
 
 .navbar {
     height: 100px;
+    
 }
 
 .logo {
@@ -87,9 +91,27 @@ header {
     height: 100%;
     background-color: #007777;
     border-radius: 100%;
+    border-style: solid;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.download-icon {
+    text-align: center;
+    color: #AAAAAA;
+    font-size: x-large;
+}
+.navbar-nav {
+    width: 100%;
+}
+.navbar-nav li {
+    background-color:#333;
+    color: black;
+    border-radius: 10px;
+    border-color: #777777;
+    border-style: groove;
+    text-align: center;
 }
 @media (min-width: 768px) {
     .navbar {
@@ -97,12 +119,11 @@ header {
         margin-left: 10%;
         margin-right: 10%;
         margin-top: 50px;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
         border-radius: 25px;
         padding: 20px;
         height: 70px;
     }
-    
     .logo {
         position: absolute;
         left: -70px;
