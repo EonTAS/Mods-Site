@@ -99,8 +99,11 @@ header {
 
 .download-icon {
     text-align: center;
-    color: #AAAAAA;
+    color: #AAA;
     font-size: x-large;
+}
+.download-icon:hover {
+    color: #999;
 }
 .navbar-nav {
     width: 100%;
@@ -112,6 +115,9 @@ header {
     border-color: #777777;
     border-style: groove;
     text-align: center;
+}
+.navbar-nav li:hover {
+    background-color: #222;
 }
 @media (min-width: 768px) {
     .navbar {
