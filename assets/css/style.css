@@ -95,12 +95,16 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-color: #333;
 }
 
 .download-icon {
     text-align: center;
-    color: #AAA;
     font-size: x-large;
+}
+.download-icon a {
+    
+    color: #AAA;
 }
 .download-icon:hover {
     color: #999;
@@ -115,6 +119,10 @@ header {
     border-color: #777777;
     border-style: groove;
     text-align: center;
+    text-transform: uppercase;
+}
+.navbar-nav .active {
+    background-color: #444;
 }
 .navbar-nav li:hover {
     background-color: #222;
