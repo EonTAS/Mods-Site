@@ -33,10 +33,12 @@
                 <a href="./" class="logo">
                     <img src="assets/img/logo.png" alt="logo">
                 </a>
-                <a target="_blank" class="col-md-6 download-icon" href="#">
-                    <i class="fas fa-cloud-download-alt" aria-hidden="true"></i>
-                    <span class="sr-only">Download.</span>
-                </a>
+                <div class="col-md-6 download-icon">
+                    <a target="_blank" href="#">
+                        <i class="fas fa-cloud-download-alt" aria-hidden="true"></i>
+                        <span class="sr-only">Download.</span>
+                    </a>
+                </div>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -63,6 +65,64 @@
     </header>
     <section id="centerSection">
         <div class="row">
+            <div class="col-md-4">
+                <div class="row">
+                    <a target="_blank" class="col-md-6 download-icon" href="#">
+                        <i class="fas fa-bug" aria-hidden="true"></i>
+                        <span class="sr-only">Bug List.</span>
+                    </a>
+                    Known Bugs found here, please read before posting
+                </div>
+                <div class="row">
+                    <h3>
+                        Example Report
+                    </h3>
+                    Hi yes this is a description of what a bug report would look like. you would include a description
+                    of what would be done and what result that produces, and when you do this that happens and blahblah
+                    blahblah blahblah blahblah blahblah
+                </div>
+            </div>
+            <div class="col-md-8">
+                <section class="container-fluid">
+                    <h3 class="contact-heading uppercase text-center">
+                        Found a Problem or have a suggestion?
+                    </h3>
+                    <h5 class="uppercase text-center">
+                        Send it in!
+                    </h5>
+                    <div class="center-form">
+                        <form>
+                            <input type="text" name="name" id="fullname" class="form-control" placeholder="Name"
+                                required>
+                            <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email"
+                                required>
+                            <p>Please select your submission type:</p>
+                            <input type="radio" id="typeBug" name="type" value="bug" required>
+                            <label for="typeBug">
+                                Bug Report
+                            </label><br>
+                            <input type="radio" id="typeSuggestion" name="type" value="suggestion" required>
+                            <label for="typeSuggestion">
+                                Suggestion
+                            </label>
+                            <textarea name="projectsummary" id="projectsummary" class="form-control" rows="5"
+                                placeholder="Description" required></textarea>
+                            <input type="checkbox" id="confirm" required>
+                            <label for="confirm">
+                                I have read and confirmed this is not already in the list of
+                                <a>bugs</a>/<a>suggestions</a>
+                            </label>
+                            <div class="form-row text-center">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-secondary">
+                                        Send Report
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+            </div>
         </div>
     </section>
     <footer class="container-fluid">
