@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo&family=Roboto&display=swap');
+* { /* default font, doesnt work */
+    font-family: exo, sans-serif;
+}
 
 body {
     background-color: #333333;
@@ -47,37 +50,6 @@ header {
 }
 
 
-
-.menu-item {
-    text-align: center;
-    height: 70px;
-    margin-top: 11%;
-}
-.menu-item a {
-    width: 100%;
-    text-decoration: none;
-    color: white;
-    height: 100%;
-}
-
-.menu-item a i {
-    padding-top: 22px;
-    display: block;
-    color: #fafafa;
-    font-size: 26px;
-}
-
-.menu-item span {
-    display: block;
-    width: 100%;
-    padding-top: 5px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 2px;
-}
-
 .navbar {
     height: 100px;
     
@@ -120,6 +92,8 @@ header {
     border-style: groove;
     text-align: center;
     text-transform: uppercase;
+    
+    font-family: "Roboto", sans-serif;
 }
 .navbar-nav .active {
     background-color: #444;
@@ -155,7 +129,6 @@ footer {
     height: auto;
 }
 
-
 /** Section **/
 .videoContainer { /* https://css-tricks.com/fluid-width-video/ */
   position: relative;
@@ -184,4 +157,19 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/* Report Page */
+
+.bug-report-section {
+    border-bottom-width: 4px;
+    border-bottom-style: dotted;
+}
+
+.example-report {
+    border-width: 3px;
+    border-style: dashed;
+    border-radius: 10%;
+    border-color: #333;
+    background-color: #FFF1;
 }
