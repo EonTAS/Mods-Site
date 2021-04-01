@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo&family=Roboto&display=swap');
-* { /* default font, doesnt work */
-    font-family: exo, sans-serif;
-}
+
 
 body {
     background-color: #333333;
+    font-family: exo, sans-serif;
+    color: #DDD
 }
 a {
     text-decoration: none;
@@ -26,6 +26,14 @@ a:hover {
 }
 .ui-menu-color-report {
     background-color: yellow;
+}
+
+
+/* General things*/
+.general-header {
+    font-family: roboto, sans-serif;
+    font-weight: 600;
+    color: #fafafa;
 }
 
 /*** Header ***/
@@ -127,23 +135,11 @@ footer {
     position: fixed;
     bottom:0;
     height: auto;
+    color: #222;
+    font-family: roboto, arial;
 }
 
 /** Section **/
-.videoContainer { /* https://css-tricks.com/fluid-width-video/ */
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  height: 0;
-}
-.videoContainer iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 90%;
-  height: 90%;
-  margin: 5%;
-
-}
 #centerSection {
     width: 90%;
     margin: 0 5% 110px 5%;
@@ -159,6 +155,22 @@ footer {
     background-size: cover;
 }
 
+/* index */
+
+.videoContainer { /* https://css-tricks.com/fluid-width-video/ */
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoContainer iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 90%;
+  margin: 5%;
+
+}
 /* Report Page */
 
 .bug-report-section {
