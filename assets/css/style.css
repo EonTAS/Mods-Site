@@ -193,3 +193,29 @@ first keeps vertical height consistent, second keeps horizontal height consisten
 input[type="radio"] {
     margin-left: 30px;
 }
+
+/* Features Page */
+.carousel {
+    background-color: #0003;
+    padding: 10px;
+    border-radius: 30px;
+}
+.carousel-inner {
+    border-radius: 30px;
+}
+.carousel-caption {
+    color: white;
+    background-color: #2228;
+    text-transform: uppercase;
+    border-radius: 20px;
+    padding: 30px;
+}
+.carousel-caption p {
+    font-weight: 200;
+    font-size: 13px;
+    text-transform: none;
+
+}
+.carousel-caption .progress {
+    color: black;
+}
