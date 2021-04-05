@@ -65,7 +65,7 @@
     </header>
     <section id="centerSection">
         <div class="row">
-            <div class="col-md-6 text-center text-md-end">
+            <div class="col-md-6 text-center text-md-end  col-xl-3 order-xl-1">
                 <h1 class="general-header">
                     One feature here
                 </h1>
@@ -73,7 +73,7 @@
                 opponent till you knock them out of the field. I wrote a thing that lets you view exactly how collisions
                 and logic works in this environment
             </div>
-            <div class="col-md-6 text-center text-md-start">
+            <div class="col-md-6 text-center text-md-start col-xl-3 order-xl-3">
                 <h1 class="general-header">
                     A different feature here
                 </h1>
@@ -81,17 +81,19 @@
                 opponent till you knock them out of the field. I wrote a thing that lets you view exactly how collisions
                 and logic works in this environment
             </div>
-        </div>
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+
+        <div id="feature-carousel" class="carousel slide col-xl-6 order-xl-2" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="/assets/img/collisionsPreview.png" alt="First slide">
                     <div class="carousel-caption d-none d-md-block">
                         Collision Display:
                         <p>
-                            Allows users to view how the game interprets hitboxes and hurtboxes to better understand whether something should hit and how interactions play out 
+                            Allows users to view how the game interprets hitboxes and hurtboxes to better understand
+                            whether something should hit and how interactions play out
                             <br>
-                            Also allows completely disabling the fighters render so that its easier to see the collisions.
+                            Also allows completely disabling the fighters render so that its easier to see the
+                            collisions.
                         </p>
                         <div class="progress">
                             <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 95%"
@@ -107,7 +109,8 @@
                     <div class="carousel-caption d-none d-md-block">
                         Status Module Display:
                         <p>
-                            Prints text to the screen detailing the exact action each fighter is in, as well as details on their subaction and what frame of animation they are on.  
+                            Prints text to the screen detailing the exact action each fighter is in, as well as details
+                            on their subaction and what frame of animation they are on.
                         </p>
                         <div class="progress">
                             <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 50%"
@@ -123,9 +126,10 @@
                     <div class="carousel-caption d-none d-md-block">
                         Stage Collisions Display:
                         <p>
-                            Allows you to disable the stage render entirely and instead draw the exact stage collisions the game uses. 
+                            Allows you to disable the stage render entirely and instead draw the exact stage collisions
+                            the game uses.
                             <br>
-                            This also allows viewing blastzones and camera boundaries.     
+                            This also allows viewing blastzones and camera boundaries.
                         </p>
                         <div class="progress">
                             <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%"
@@ -145,6 +149,7 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
+        </div>
         </div>
     </section>
     <footer class="container-fluid">
