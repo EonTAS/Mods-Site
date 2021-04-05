@@ -195,6 +195,10 @@ input[type="radio"] {
 }
 
 /* Features Page */
+
+.feature-text {
+    
+}
 .carousel {
     background-color: #0003;
     padding: 10px;
