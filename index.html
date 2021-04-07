@@ -27,6 +27,7 @@
 </head>
 
 <body>
+    <!-- Approximately the same in all pages -->
     <header>
         <div class="row g-0">
             <nav class="navbar navbar-expand-md navbar-dark bg-dark">
@@ -34,22 +35,21 @@
                     <img src="assets/img/logo.png" alt="logo">
                 </a>
                 <div class="col-md-6 download-icon">
-
                     <a target="_blank" href="https://github.com/EonTAS/DebugMode">
                         <i class="fas fa-cloud-download-alt" aria-hidden="true"></i>
                         <span class="sr-only">Download.</span>
                     </a>
                 </div>
 
+                <!-- collapses at size md to a dropdown bar-->
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
-
                 <div class="collapse navbar-collapse col-md-6" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
+                        <!-- set as active since in the home page-->
                         <li class="ui-menu-color-home nav-item active col-md-4">
                             <a class="nav-link" href="#"><span>Home</span></a>
                         </li>
@@ -66,32 +66,36 @@
     </header>
     <section id="centerSection">
         <div class="row">
+            <!-- is an image that only shows at small screen sizes. This is paired with another image that scales differently further down the page -->
             <div class="col-12 d-md-none">
                 <div class="demo-img"></div>
             </div>
             <div class="col-md-8 text-center text-md-end">
                 <h3 class="general-header welcome-header">
-
                     Welcome
                 </h3>
                 <p>
                     This website is here to show how my project to completely rewrite
-                    <a class="demo-link" href="features.html" target="_blank">Project M's debug mode</a>
+                    <a class="demo-link" href="https://www.youtube.com/watch?v=Vbn91zZPrg8" target="_blank">Project M's debug mode</a>
                     in a way that utilises the graphics engine to draw straight to the screen instead of uses individual
                     graphics objects in the games limited gfx system, as well as add new features to it such as background toggling and accurate hitbox interpolation.
                     <br>
                     The general idea of this is to mimmick Smash Bros Melee's debug mode and allow it to be a much more complete feature.
                 </p>
-
-
             </div>
+            <!-- is an image that only shows at large screen sizes. This is paired with another image that scales differently further up the page -->
             <div class="d-none d-md-block col-md-4">
                 <div class="demo-img-small"></div>
             </div>
         </div>
         <div class="row">
+            <!-- forces the video to fill a 16:9 aspect ratio -->
             <div class="videoContainer">
-                <iframe id="video" src="https://www.youtube.com/embed/CAkMUdeB06o" frameborder="0"
+                <!-- 
+                    video embed from youtube.
+                    video is just a temporary thing since no video on the actual content wanted is made yet.
+                 -->
+                <iframe id="video" src="https://www.youtube.com/embed/Vbn91zZPrg8" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
@@ -104,7 +108,7 @@
                     About
                 </h5>
                 <p class="inline-block">
-                    Yo this is a site about that mod i made
+                    Yo this is a site about that mod I made
                 </p>
             </div>
             <div class="col-4">
@@ -132,7 +136,6 @@
                         </a>
                     </li>
                 </ul>
-                </p>
             </div>
         </div>
     </footer>

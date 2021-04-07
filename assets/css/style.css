@@ -172,9 +172,7 @@ first keeps vertical height consistent, second keeps horizontal height consisten
   width: 90%;
   height: 90%;
   margin: 5%;
-
 }
-
 
 .demo-link {
     color: #ffe;
@@ -182,13 +180,17 @@ first keeps vertical height consistent, second keeps horizontal height consisten
 .demo-link:hover {
     color: purple;
 }
-/* Report Page */
+/** Report Page **/
 
 .bug-report-section {
     border-bottom-width: 4px;
     border-bottom-style: dotted;
 }
 
+/* 
+creates a dashed line border around the example text, 
+and makes the colour of the box slightly lighter than the background.
+*/
 .example-report {
     border-width: 3px;
     border-style: dashed;
@@ -220,6 +222,7 @@ label[for="confirm"] {
 .carousel-inner {
     border-radius: 30px;
 }
+/* formats the caption to have upper case title and then lower case blocks of text below them. */
 .carousel-caption {
     color: white;
     background-color: #2228;
@@ -231,8 +234,4 @@ label[for="confirm"] {
     font-weight: 200;
     font-size: 13px;
     text-transform: none;
-
-}
-.carousel-caption .progress {
-    color: black;
 }

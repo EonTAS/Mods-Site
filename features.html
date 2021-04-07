@@ -27,6 +27,7 @@
 </head>
 
 <body>
+    <!-- Approximately the same in all pages -->
     <header>
         <div class="row g-0">
             <nav class="navbar navbar-expand-md navbar-dark bg-dark">
@@ -40,18 +41,18 @@
                     </a>
                 </div>
 
+                <!-- collapses at size md to a dropdown bar-->
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
-
                 <div class="collapse navbar-collapse col-md-6" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="ui-menu-color-home nav-item col-md-4">
                             <a class="nav-link" href="./"><span>Home</span></a>
                         </li>
+                        <!-- set as active since in the features page-->
                         <li class="ui-menu-color-features nav-item active col-md-4">
                             <a class="nav-link" href="#"><span>Features</span></a>
                         </li>
@@ -64,8 +65,9 @@
         </div>
     </header>
     <section id="centerSection">
+        <!-- d-flex to allow vertical alignment of items -->
         <div class="row d-flex align-items-center">
-            
+            <!-- Is order 1, so always shows first in the set of 3 items in this section -->
             <div class="feature-text col-md-6 text-center text-md-end col-xl-3 order-xl-1">
                 <h1 class="general-header">
                     Complete Rewrite
@@ -74,6 +76,8 @@
                     Most of the original debug modes codes are very messy in design. This rework completely shifts logic from inside the gecko pass to individual <i>renderDebug</i> functions of each object. This way of working makes it so it is very generalisable. Hitbox renderring was written for fighters but automatically works for hazards on stages as well as subspace enemies and bosses.   
                 </p>
             </div>
+            <!-- Is order 3 at large sizes, so normally shows second in the set of 3 items 
+            but re-aligns to last at large sizes -->
             <div class="feature-text col-md-6 text-center text-md-start col-xl-3 order-xl-3">
                 <h1 class="general-header">
                     Clean Graphics
@@ -83,8 +87,12 @@
                 </p>
             </div>
 
+            <!-- Is order 2 at large sizes, so normally shows last in the set of 3 items 
+            but re-aligns to second at large sizes -->
+            <!-- image carousel means items can be scrolled between. -->
             <div id="feature-carousel" class="carousel slide col-xl-6 order-xl-2" data-ride="carousel">
                 <div class="carousel-inner">
+                    <!-- each item has an image, a title, a description and a progress bar -->
                     <div class="carousel-item active">
                         <img class="d-block w-100" src="/assets/img/collisionsPreview.png" alt="First slide">
                         <div class="carousel-caption d-none d-md-block">
@@ -190,7 +198,6 @@
                         </a>
                     </li>
                 </ul>
-                </p>
             </div>
         </div>
     </footer>
