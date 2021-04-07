@@ -44,6 +44,12 @@ I want to be able to tell the creator about any bugs i experience and how to rep
 
 ![Image](/wireframes/Features.png)
 
+Original plan of a features page has been reworked to make use of an image carousel as seen below
+
+![Image](/wireframes/FeaturesRework.png)
+
+Has layout for 3 sizes, where largest places images inbetween textboxes instead of below them.
+Has a progress bar at the bottom of the image showing how far along the given feature is in development.
 ## Suggestions/Bug Reports Page 
 
 ![Image](/wireframes/Report.png)
