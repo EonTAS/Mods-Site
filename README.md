@@ -50,6 +50,7 @@ Original plan of a features page has been reworked to make use of an image carou
 
 Has layout for 3 sizes, where largest places images inbetween textboxes instead of below them.
 Has a progress bar at the bottom of the image showing how far along the given feature is in development.
+
 ## Suggestions/Bug Reports Page 
 
 ![Image](/wireframes/Report.png)
@@ -59,3 +60,38 @@ Has a progress bar at the bottom of the image showing how far along the given fe
 
 Background will be a carbon colour, relatively dark.
 Text will be an off-white colour using the Exo and Roboto fonts.
+
+### Deployment
+
+I developed this project using [Gitpod IDE]() and a git-repo hosted on GitHub. 
+
+The page is hosted using GitHub Pages by doing the following:
+
+1) Log in
+2) Open Repo
+3) Select Settings
+4) Find the GitHub Pages Section
+5) select the master branch as the source
+6) get link from the page again.
+
+This page can be found [here](https://EonTas.github.io/Mods-Site/.) for the forseeable future.
+
+## How to run locally
+
+To clone you will need a github account or other git client.
+1) Open this link to the [project]()
+2) Under the repo name, click "clone or download" button.
+3) copy the clone url for the repository.
+4) In your IDE of choice, open the terminal 
+5) set working directory to where you want to clone the repo.
+6) type `git clone` and paste the url from step 3 and press enter.
+
+### Testing
+
+- W3C CSS Validation
+- W3C Markup Validation
+    - Both validators used to test the website code.
+
+# Client Story Testing
+
+# Test Client Stories from UX Section.
