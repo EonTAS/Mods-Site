@@ -14,11 +14,14 @@ As a visitor, I want to be able to know what feature are provided and what makes
 ## Features: 
 As a visitor I want to know how completed any given feature.
 
-## Suggestions
+## Suggestions:
 As a user, I want to be able to suggest new ideas for the project or get in contact with the owner of the site. 
 
-## Bug Reports
+## Bug Reports:
 As a user, I want to be able to tell the creator about any bugs i experience and how to reproduce them.
+
+## Download: 
+As a potential user I want to have an easily accessible download link at all times.
 
 
 # Features :
@@ -92,4 +95,27 @@ To clone you will need a github account or other git client.
 
 # Test Client Stories from UX Section.
 
-I gotta tidy up the user stories themselves too
+
+- As a visitor I want to know about what projects have been done and how to download them.
+    - a
+- As a visitor, I want to be able to know what feature are provided and what makes them cool.
+    - a 
+- As a visitor I want to know how completed any given feature.
+    - a
+- As a user, I want to be able to suggest new ideas for the project or get in contact with the owner of the site. 
+    - a
+- As a user, I want to be able to tell the creator about any bugs i experience and how to reproduce them.
+    - a 
+- As a potential user I want to have an easily accessible download link at all times.
+    - a
+
+# Lighthouse: 
+
+
+# Others:
+Expected
+Testing
+Result
+Fix
+
+# Bugs:
