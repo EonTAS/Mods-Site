@@ -8,21 +8,17 @@ Based loosely on the readme i wrote for the debug mode code found [here](https:/
 ## Home Page :
 As a visitor I want to know about what projects have been done and how to download them.
 
-
-
-
 ## Key Features of Debug Mode: 
-I want to know more technical details of specific features and what inputs do what.
+As a visitor, I want to be able to know what feature are provided and what makes them cool.
 
-## Plans
-I want to know what features are still yet to be made for the project and what they would look like.
+## Features: 
+As a visitor I want to know how completed any given feature.
 
 ## Suggestions
-I want to be able to suggest new ideas for the project or get in contact with the owner of the site. 
+As a user, I want to be able to suggest new ideas for the project or get in contact with the owner of the site. 
 
 ## Bug Reports
-I want to be able to tell the creator about any bugs i experience and how to reproduce them.
-
+As a user, I want to be able to tell the creator about any bugs i experience and how to reproduce them.
 
 
 # Features :
@@ -95,3 +91,5 @@ To clone you will need a github account or other git client.
 # Client Story Testing
 
 # Test Client Stories from UX Section.
+
+I gotta tidy up the user stories themselves too
