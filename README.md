@@ -132,23 +132,35 @@ All pages correctly change appearance according to page size. Mostly vertically 
 
 ## Dropdown: 
 
-Expected:
-    Dropdown menu only shows at small screen sizes, replacing the 3 buttons
-Testing
-    Tested at different sizes
-Result
-    Works as expected.
-    ![dropdown](testing/dropdown.gif)
+- Expected:
+
+Dropdown menu only shows at small screen sizes, replacing the 3 buttons
+
+- Testing
+
+Tested at different sizes
+
+- Result
+
+Works as expected.
+
+![dropdown](testing/dropdown.gif)
 
 ## Navbar: 
 
-Expected: 
-    Logo resizes at same time dropdown dissapears to be make large screen sizes look better
-Testing:
-    Opened page at different scales.
-Result: 
-    Works as expected, at small screen size, top bar fills entire screen and image is contained within, at large scales it escapes those bounds.
-    ![home](testing/homeScaling.gif)
+- Expected: 
+
+Logo resizes at same time dropdown dissapears to be make large screen sizes look better
+
+- Testing:
+
+Opened page at different scales.
+
+- Result: 
+
+Works as expected, at small screen size, top bar fills entire screen and image is contained within, at large scales it escapes those bounds.
+
+![home](testing/homeScaling.gif)
 
 
 # Bugs:
