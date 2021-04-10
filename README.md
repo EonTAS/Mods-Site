@@ -78,7 +78,7 @@ This page can be found [here](https://EonTas.github.io/Mods-Site/.) for the fors
 ## How to run locally
 
 To clone you will need a github account or other git client.
-1) Open this link to the [project]()
+1) Open this link to the [project](https://github.com/EonTAS/Mods-Site/)
 2) Under the repo name, click "clone or download" button.
 3) copy the clone url for the repository.
 4) In your IDE of choice, open the terminal 
