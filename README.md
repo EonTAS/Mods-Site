@@ -23,15 +23,12 @@ As a user, I want to be able to tell the creator about any bugs i experience and
 ## Download: 
 As a potential user I want to have an easily accessible download link at all times.
 
+## Navbar:
+As a user i want to be able to navigate through the page easily on both mobile and desktop.
 
-# Features :
+## Footer:
+As a site user i want to have easy access to the site owners other social medias etc on any page.
 
-1. Navbar
-2. Footer
-3. Home Page
-4. Key Feature Description
-5. Suggestions/Bug Reports
-6. Github Link
 
 # Wireframes :
 
@@ -93,29 +90,65 @@ To clone you will need a github account or other git client.
 
 # Client Story Testing
 
-# Test Client Stories from UX Section.
-
-
 - As a visitor I want to know about what projects have been done and how to download them.
-    - a
+    - A download link is provided at the top of all pages and the welcome page describes the project being worked on. 
 - As a visitor, I want to be able to know what feature are provided and what makes them cool.
-    - a 
+    - The features page is available and describes specific features for the user to read about.
 - As a visitor I want to know how completed any given feature.
-    - a
+    - At the bottom of the image carousel in the features page there is a progress bar showing the completion level of any given feature.
 - As a user, I want to be able to suggest new ideas for the project or get in contact with the owner of the site. 
-    - a
+    - The report page allows the user to submit a suggestion to the site owner with the provided form.
 - As a user, I want to be able to tell the creator about any bugs i experience and how to reproduce them.
-    - a 
+    - The report page allows the user to submit a bug report to the site owner with the provided form.
 - As a potential user I want to have an easily accessible download link at all times.
-    - a
+    - Download link is available on all pages.
+- As a user i want to be able to navigate through the page easily on both mobile and desktop.
+    - At the top of the page, there is a dropdown menu link to all 3 pages that seperates into three buttons on large screens for easy navigation.
+- As a site user i want to have easy access to the site owners other social medias etc on any page.
+    - The footer of the page provides links to multiple social medias.
 
 # Lighthouse: 
+Lighthouse test results for each page are as follows: 
 
+## Home Page
+![home](testing/lighthouse/home.png)
+## Features Page
+![features](testing/lighthouse/features.png)
+## Report Page
+![report](testing/lighthouse/report.png)
 
 # Others:
-Expected
+
+## Page Scaling:
+
+All pages correctly change appearance according to page size. Mostly vertically aligned content in small sizes, changing to elements in the same row with different text alignment at larger scales.
+
+### Home Page: 
+![home](testing/homeScaling.gif)
+### Features Page: 
+![features](testing/featuresScaling.gif)
+### Report Page: 
+![report](testing/reportScaling.gif)
+
+## Dropdown: 
+
+Expected:
+    Dropdown menu only shows at small screen sizes, replacing the 3 buttons
 Testing
+    Tested at different sizes
 Result
-Fix
+    Works as expected.
+    ![dropdown](testing/dropdown.gif)
+
+## Navbar: 
+
+Expected: 
+    Logo resizes at same time dropdown dissapears to be make large screen sizes look better
+Testing:
+    Opened page at different scales.
+Result: 
+    Works as expected, at small screen size, top bar fills entire screen and image is contained within, at large scales it escapes those bounds.
+    ![home](testing/homeScaling.gif)
+
 
 # Bugs:
