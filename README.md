@@ -85,8 +85,19 @@ To clone you will need a github account or other git client.
 ### Testing
 
 - W3C CSS Validation
+
+![css](testing/w3c/w3ccss.png)
+
 - W3C Markup Validation
-    - Both validators used to test the website code.
+
+
+![index](testing/w3c/w3cindex.png)
+
+
+![features](testing/w3c/w3cfeatures.png)
+
+
+![report](testing/w3c/w3creport.png)
 
 # Client Story Testing
 
