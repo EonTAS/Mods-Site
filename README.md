@@ -163,4 +163,10 @@ Works as expected, at small screen size, top bar fills entire screen and image i
 ![home](testing/homeScaling.gif)
 
 
-# Bugs:
+# Credits: 
+
+To make the youtube video correctly use a 16:9 aspect ratio, I used the css found here: https://css-tricks.com/fluid-width-video/ 
+
+To make the carousel of images work appropriately, the example code found [here](https://getbootstrap.com/docs/4.0/components/carousel/) in the documentation was used extensively.
+
+The video featured on the home page is not mine, it is just relevant to the topic of the site since i don't have an actual vidoe to place there. The video belongs to the SmashAcademy youtube channel.
