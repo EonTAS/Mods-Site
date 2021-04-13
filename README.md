@@ -59,7 +59,7 @@ Text will be an off-white colour using the Exo and Roboto fonts.
 
 ### Deployment
 
-I developed this project using [Gitpod IDE]() and a git-repo hosted on GitHub. 
+I developed this project using [Gitpod IDE](https://gitpod.io/) and a git-repo hosted on GitHub. 
 
 The page is hosted using GitHub Pages by doing the following:
 
