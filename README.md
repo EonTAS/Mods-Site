@@ -5,29 +5,29 @@ Based loosely on the readme i wrote for the debug mode code found [here](https:/
 
 # User Stories :
 
-## Home Page :
-As a visitor I want to know about what projects have been done and how to download them.
+1) As a visitor I want to know about what projects have been done and how to download them.
 
-## Key Features of Debug Mode: 
-As a visitor, I want to be able to know what feature are provided and what makes them cool.
+2) As a visitor, I want to be able to know what feature are provided and what makes them cool.
 
-## Features: 
-As a visitor I want to know how completed any given feature.
+3) As a visitor I want to know how completed any given feature.
 
-## Suggestions:
-As a user, I want to be able to suggest new ideas for the project or get in contact with the owner of the site. 
+4) As a user, I want to be able to suggest new ideas for the project or get in contact with the owner of the site. 
 
-## Bug Reports:
-As a user, I want to be able to tell the creator about any bugs i experience and how to reproduce them.
+5) As a user, I want to be able to tell the creator about any bugs i experience and how to reproduce them.
 
-## Download: 
-As a potential user I want to have an easily accessible download link at all times.
+6) As a potential user I want to have an easily accessible download link at all times.
 
-## Navbar:
-As a user i want to be able to navigate through the page easily on both mobile and desktop.
+7) As a user i want to be able to navigate through the page easily on both mobile and desktop.
 
-## Footer:
-As a site user i want to have easy access to the site owners other social medias etc on any page.
+8) As a site user i want to have easy access to the site owners other social medias etc on any page.
+
+# Features :
+
+describe how each feature should work
+
+# Future Features: 
+
+
 
 
 # Wireframes :
@@ -57,7 +57,9 @@ Has a progress bar at the bottom of the image showing how far along the given fe
 Background will be a carbon colour, relatively dark.
 Text will be an off-white colour using the Exo and Roboto fonts.
 
-### Deployment
+
+
+# Deployment
 
 I developed this project using [Gitpod IDE](https://gitpod.io/) and a git-repo hosted on GitHub. 
 
