@@ -23,10 +23,11 @@
 
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
 
-    <title>Report</title>
+    <title>Home</title>
 </head>
 
 <body>
+    <!-- Approximately the same in all pages -->
     <header>
         <div class="row g-0">
             <nav class="navbar navbar-expand-md navbar-dark bg-dark">
@@ -40,23 +41,23 @@
                     </a>
                 </div>
 
+                <!-- collapses at size md to a dropdown bar-->
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
-
                 <div class="collapse navbar-collapse col-md-6" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
+                        <!-- set as active since in the home page-->
                         <li class="ui-menu-color-home nav-item col-md-4">
                             <a class="nav-link" href="./"><span>Home</span></a>
                         </li>
                         <li class="ui-menu-color-features nav-item col-md-4">
                             <a class="nav-link" href="features.html"><span>Features</span></a>
                         </li>
-                        <li class="ui-menu-color-report nav-item active col-md-4">
-                            <a class="nav-link" href="#"><span>Report</span></a>
+                        <li class="ui-menu-color-report nav-item col-md-4">
+                            <a class="nav-link" href="report.html"><span>Report</span></a>
                         </li>
                     </ul>
                 </div>
@@ -64,74 +65,12 @@
         </div>
     </header>
     <section id="centerSection">
-        <div class="row">
-            <div class="col-md-6 col-xl-4">
-                <div class="row text-center bug-report-section">
-                    <a target="_blank" class="download-icon" href="https://github.com/EonTAS/DebugMode/issues"
-                        rel="noopener">
-                        <i class="fas fa-bug" aria-hidden="true"></i>
-                        <span class="sr-only">Bug List.</span>
-                    </a>
-                    <p>
-
-                        Known Bugs found here, please read before posting
-
-                    </p>
-                </div>
-                <div class="row">
-                    <h3 class="text-center">
-                        Example Report
-                    </h3>
-                    <div class="example-report">
-                        Platform : Wii/Dolphin <br>
-                        Inconvenience : 5/10 <br>
-                        Problem : Crashes when loading ZSS with debug enabled <br>
-                        Steps to reproduce : Disable stage render at any point and then go to css and move puck onto
-                        zss, and then game cant load.
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-xl-8 report-form">
-                <section class="container-fluid">
-                    <h3 class="uppercase text-center">
-                        Found a Problem or have a suggestion?
-                    </h3>
-                    <h5 class="uppercase text-center">
-                        Send it in!
-                    </h5>
-                    <div class="center-form">
-                        <form action="./form submitted.html">
-                            <input type="text" name="name" id="fullname" class="form-control" placeholder="Name"
-                                required>
-                            <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email"
-                                required>
-                            Submission Type:<br>
-                            <input type="radio" id="typeBug" name="type" value="bug" required>
-                            <label for="typeBug">
-                                Bug Report <i class="fas fa-bug"></i>
-                            </label><br>
-                            <input type="radio" id="typeSuggestion" name="type" value="suggestion" required>
-                            <label for="typeSuggestion">
-                                Suggestion <i class="far fa-lightbulb"></i>
-                            </label>
-                            <textarea name="projectsummary" id="projectsummary" class="form-control" rows="5"
-                                placeholder="Description" required></textarea>
-                            <input type="checkbox" id="confirm" required>
-                            <label for="confirm">
-                                I have read and confirmed this is not already in the list of
-                                bugs/suggestions
-                            </label>
-                            <div class="form-row text-center">
-                                <div class="col">
-                                    <button type="submit" class="btn btn-secondary">
-                                        Send Report
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </section>
+        <div class="row text-center">
+            <div class="col">
+                Form Submitted, thanks for you're feedback.
+                Click here to return to the home page. <br>
+                <i>note: this is just a mockup and no actual data has been saved, thanks for trying though. Just go to the
+                github repo and submit there or something.</i>
             </div>
         </div>
     </section>
@@ -142,7 +81,7 @@
                     About
                 </h5>
                 <p class="inline-block">
-                    Yo this is a site about that mod i made
+                    Yo this is a site about that mod I made
                 </p>
             </div>
             <div class="col-4">
