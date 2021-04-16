@@ -81,32 +81,7 @@ Has a progress bar at the bottom of the image showing how far along the given fe
 
 ![Image](/wireframes/Report.png)
 
-# Deployment
-
-I developed this project using [Gitpod IDE](https://gitpod.io/) and a git-repo hosted on GitHub. 
-
-The page is hosted using GitHub Pages by doing the following:
-
-1) Log in
-2) Open Repo
-3) Select Settings
-4) Find the GitHub Pages Section
-5) select the master branch as the source
-6) get link from the page again.
-
-This page can be found [here](https://EonTas.github.io/Mods-Site/.) for the forseeable future.
-
-## How to run locally
-
-To clone you will need a github account or other git client.
-1) Open this link to the [project](https://github.com/EonTAS/Mods-Site/)
-2) Under the repo name, click "clone or download" button.
-3) copy the clone url for the repository.
-4) In your IDE of choice, open the terminal 
-5) set working directory to where you want to clone the repo.
-6) type `git clone` and paste the url from step 3 and press enter.
-
-### Testing
+# Testing
 
 - W3C CSS Validation
 
@@ -197,6 +172,31 @@ Works as expected, at small screen size, top bar fills entire screen and image i
 
 ![home](testing/homeScaling.gif)
 
+
+# Deployment
+
+I developed this project using [Gitpod IDE](https://gitpod.io/) and a git-repo hosted on GitHub. 
+
+The page is hosted using GitHub Pages by doing the following:
+
+1) Log in
+2) Open Repo
+3) Select Settings
+4) Find the GitHub Pages Section
+5) select the master branch as the source
+6) get link from the page again.
+
+This page can be found [here](https://EonTas.github.io/Mods-Site/.) for the forseeable future.
+
+## How to run locally
+
+To clone you will need a github account or other git client.
+1) Open this link to the [project](https://github.com/EonTAS/Mods-Site/)
+2) Under the repo name, click "clone or download" button.
+3) copy the clone url for the repository.
+4) In your IDE of choice, open the terminal 
+5) set working directory to where you want to clone the repo.
+6) type `git clone` and paste the url from step 3 and press enter.
 
 # Credits: 
 
