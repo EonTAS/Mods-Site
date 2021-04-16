@@ -23,11 +23,41 @@ Based loosely on the readme i wrote for the debug mode code found [here](https:/
 
 # Features :
 
-describe how each feature should work
+1) Navbar :
+
+    Sits at the top of the page at all times. At small screen sizes it will provide a dropdown menu to access all pages of the site, when above a medium size it rescales to fit a link to each page as individual buttons. 
+
+2) Footer links : 
+
+    At the bottom of the screen at all times will be a locked footer bar that contains a description of the site and links to social medias.
+
+3) Home Page - Video : 
+
+    A youtube video embed that correctly has 16:9 aspect ratio at all times 
+
+3) Features Page - Image Carousel :
+
+    On the features page, the central image will rotate between different things, with a description at the bottom of the image and a "completion" bar. At smaller sizes the description will be hidden to just show the image.
+
+4) Report Page - Report form : 
+
+    A form will exist to send a bug report/feature suggestion, you must fill every field to be able to submit it.
 
 # Future Features: 
 
+1) Form Upgrade :
+    
+    The report form would just perform a popup confirmation you have submitted and would actually save the data somewhere.
 
+2) Features menu :
+
+    shown in a menu where you hover over one box and it does a popup window detailing it more, and then clicking that opens a specific page detailing even more and describing technical parts.
+
+
+# Typography and Color Scheme :
+
+Background will be a carbon colour, relatively dark.
+Text will be an off-white colour using the Exo and Roboto fonts.
 
 
 # Wireframes :
@@ -50,14 +80,6 @@ Has a progress bar at the bottom of the image showing how far along the given fe
 ## Suggestions/Bug Reports Page 
 
 ![Image](/wireframes/Report.png)
-
-
-# Typography and Color Scheme :
-
-Background will be a carbon colour, relatively dark.
-Text will be an off-white colour using the Exo and Roboto fonts.
-
-
 
 # Deployment
 
